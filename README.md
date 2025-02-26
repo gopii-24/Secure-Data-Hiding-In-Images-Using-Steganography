@@ -1,7 +1,7 @@
 # Cryptic Images: Secure Data Embedding Using Steganography
 This project demonstrates how to securely hide and retrieve a secret message in an image using a custom encryption-decryption algorithm. The code utilizes the concept of Least Significant Bit (LSB) encoding to embed a message and a passcode into an image. The image is then saved with the hidden data, and the user can retrieve the hidden message by entering the correct passcode.
 
-Overview
+# Overview
 
 This Python-based project allows users to:
 
@@ -10,7 +10,7 @@ This Python-based project allows users to:
 
 The process involves encoding each character of the message into the least significant bits of the image's pixel data and retrieving the message upon successful passcode verification.
 
-Features
+# Features
 
     Image Encryption:
     Embeds a secret message into the image and stores it as encryptedImage.jpg.
@@ -24,17 +24,17 @@ Features
     Image Processing with OpenCV:
     Uses the OpenCV library to manipulate and save the image after the encryption process.
 
-    Requirements
+# Requirements
 
     Python 3.x
     OpenCV (opencv-python package)
-    No external dependencies beyond Python libraries.
+    mypic.jpg
 
-    Installation
+# Installation
 
     Clone the repository or download the code files.
     Install the required libraries (if not already installed):
 
-pip install opencv-python
+    pip install opencv-python
 
-Place your image (e.g., mypic.jpg) in the project directory.
+    Place your image (e.g., mypic.jpg) in the project directory.
