@@ -12,29 +12,26 @@ The process involves encoding each character of the message into the least signi
 
 # Features
 
-    Image Encryption:
+Image Encryption:
     Embeds a secret message into the image and stores it as encryptedImage.jpg.
 
-    Message Decryption:
+Message Decryption:
     Extracts the hidden message from the encryptedImage.jpg once the correct passcode is entered.
 
-    Custom Passcode Protection:
+Custom Passcode Protection:
     Ensures that only authorized users can decrypt the message by validating a user-provided passcode.
 
-    Image Processing with OpenCV:
+Image Processing with OpenCV:
     Uses the OpenCV library to manipulate and save the image after the encryption process.
 
 # Requirements
 
-    Python 3.x
-    OpenCV (opencv-python package)
-    mypic.jpg
+Python 3.x
+OpenCV (opencv-python package)
+mypic.jpg
 
 # Installation
 
-    Clone the repository or download the code files.
-    Install the required libraries (if not already installed):
-
-    pip install opencv-python
-
-    Place your image (e.g., mypic.jpg) in the project directory.
+Install the required libraries (if not already installed):
+pip install opencv-python
+Place your image (e.g., mypic.jpg) in the project directory.
