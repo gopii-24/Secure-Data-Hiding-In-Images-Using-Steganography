@@ -31,7 +31,7 @@ The process involves encoding each character of the message into the least signi
  3. mypic.jpg
 
 # Installation
-
-Install the required libraries (if not already installed):
-pip install opencv-python
-Place your image (e.g., mypic.jpg) in the project directory.
+ 
+  1. Install the required libraries (if not already installed):
+  2. pip install opencv-python
+  3. Place your image (e.g., mypic.jpg) in the project directory.
