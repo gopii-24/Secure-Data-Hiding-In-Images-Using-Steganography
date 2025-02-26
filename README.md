@@ -1,1 +1,2 @@
-# Secure-Data-Hiding-In-Images-Using-Steganography
+# Cryptic Images: Secure Data Embedding Using Steganography
+This project demonstrates how to securely hide and retrieve a secret message in an image using a custom encryption-decryption algorithm. The code utilizes the concept of Least Significant Bit (LSB) encoding to embed a message and a passcode into an image. The image is then saved with the hidden data, and the user can retrieve the hidden message by entering the correct passcode.
